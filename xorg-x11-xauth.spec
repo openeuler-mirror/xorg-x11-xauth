@@ -43,4 +43,4 @@ make check || cat tests/test-suite.log
 
 %changelog
 * Fri Oct 11 2019 openEuler Buildteam <buildteam@openeuler.org> - 1: 1.0.9-14
-- Package init
+- Package init.
