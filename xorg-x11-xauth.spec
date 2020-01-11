@@ -1,6 +1,6 @@
 Name:           xorg-x11-xauth
-Version:        1.0.9
-Release:        14
+Version:        1.1
+Release:        1
 Epoch:          1
 Summary:        X.Org X11 X authority utilities
 License:        MIT
@@ -38,9 +38,15 @@ make check || cat tests/test-suite.log
 
 %files help
 %defattr(-,root,root)
-%doc README ChangeLog
+%doc README.md ChangeLog
 %{_mandir}/man1/xauth.1*
 
 %changelog
+* Thu Jan 09 2020 openEuler Buildteam <buildteam@openeuler.org> - 1.1-1
+- Type:enhancement
+- Id:NA
+- SUG:NA
+- DESC:update version to 1.1
+
 * Fri Oct 11 2019 openEuler Buildteam <buildteam@openeuler.org> - 1: 1.0.9-14
 - Package init
