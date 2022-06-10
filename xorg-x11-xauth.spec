@@ -1,5 +1,5 @@
 Name:           xorg-x11-xauth
-Version:        1.1
+Version:        1.1.1
 Release:        1
 Epoch:          1
 Summary:        X.Org X11 X authority utilities
@@ -42,6 +42,9 @@ make check || cat tests/test-suite.log
 %{_mandir}/man1/xauth.1*
 
 %changelog
+* Sun Apr 17 2022 YukariChiba <i@0x7f.cc> - 1.1.1-1
+- Upgrade version to 1.1.1
+
 * Thu Jan 09 2020 openEuler Buildteam <buildteam@openeuler.org> - 1.1-1
 - Type:enhancement
 - Id:NA
